@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn1 {
+  background-color: #4a627a;
+  color: #fff;
+  border: none;
+  padding: 7px 1rem;
+  border-radius: 4px;
+}
+.btn1:hover {
+  background-color: #3f5264;
+}
+ol,
+ul {
+  padding: 0 !important;
+}
+.Nav {
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #4a627a;
+}
+.Nav ul {
+  padding-left: none !important;
+  margin-top: 1rem;
+}
+.Nav .logo {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.Nav ul a {
+  display: block;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.TrackOrder {
+  margin-left: 300px;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #f4f4f4;
+}
+.track-search {
+  display: flex;
+  gap: 1rem;
+}
+.track-search input {
+  width: 60vw;
+  border-radius: 4px;
+  border: 1px solid #4a627a;
+  padding: 10px;
+}
+.Order {
+  margin-left: 300px;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #f4f4f4;
+}
+.Order button {
+  margin-top: 1rem;
+  width: 100px;
+}
+
+#myInput {
+  background-image: url("./searchicon.png");
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  margin-top: -60px;
+  right: 200px;
+  outline: none;
+  /* border-radius: 12px; */
+  font-size: 14px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.containerBox {
+  display: flex;
+  margin-top: 40px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
